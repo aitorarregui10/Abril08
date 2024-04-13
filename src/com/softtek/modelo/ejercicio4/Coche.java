@@ -1,6 +1,6 @@
 package com.softtek.modelo.ejercicio4;
 
-public abstract class Coche {
+public class Coche {
     //Atributos
     private String matricula;
     private String modelo;
@@ -11,7 +11,6 @@ public abstract class Coche {
         this.matricula = matricula;
         this.modelo = modelo;
     }
-
     public Coche() {
     }
 

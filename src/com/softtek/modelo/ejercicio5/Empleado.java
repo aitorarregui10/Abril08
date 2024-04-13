@@ -1,6 +1,6 @@
 package com.softtek.modelo.ejercicio5;
 
-public interface Empleado {
+public interface Empleado extends Informe{
     String getTareas();
-    void getInforme(Informe informe);
+    String getInforme();
 }

@@ -1,6 +1,6 @@
 package com.softtek.modelo.ejercicio5;
 
-public class Director implements Empleado{
+public class Director implements Empleado {
     private Informe informe;
 
     @Override
@@ -9,11 +9,12 @@ public class Director implements Empleado{
     }
 
     @Override
-    public void getInforme(Informe informe) {
-        this.informe = informe;
+    public String getInforme() {
+        return null;
     }
 
     public String jefe(Informe informe) {
         return null;
     }
 }
+

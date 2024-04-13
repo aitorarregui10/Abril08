@@ -1,13 +1,19 @@
 package com.softtek.modelo.ejercicio4;
 
-public abstract class SeguroCoche extends Coche implements ITaller {
+public class SeguroCoche extends Coche implements ITaller{
     //Atributo
     private ITaller taller;
     private String aseguradora;
 
+
     //Método
-    public String reparar(Coche coche) {
-        return "";
+    @Override
+    public String reparar() {
+        if (taller != null) {
+            return taller.reparar();
+        } else {
+            return "No se puede reparar, no hay taller asociado.";
+        }
     }
 
     //Constructor
@@ -16,4 +22,16 @@ public abstract class SeguroCoche extends Coche implements ITaller {
         this.taller = taller;
         this.aseguradora = aseguradora;
     }
+    public SeguroCoche() {
+    }
+
+    //Setters
+
+    public void setTaller(TallerMecanica taller) {
+    }
+
+    public void setTaller2(TallerPintura taller2) {
+    }
+
+
 }

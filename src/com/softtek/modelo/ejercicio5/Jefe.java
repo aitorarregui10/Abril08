@@ -9,12 +9,10 @@ public class Jefe implements Empleado{
     }
 
     @Override
-    public void getInforme(Informe informe) {
-
-        this.informe = informe;
+    public String getInforme() {
+        return null;
     }
-
-    public void jefe(Informe informe) {
-        this.informe = informe;
+    public String jefe(Informe informe) {
+        return null;
     }
 }

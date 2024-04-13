@@ -3,6 +3,6 @@ package com.softtek.modelo.ejercicio4;
 public class TallerPintura implements ITaller{
     @Override
     public String reparar() {
-        return "";
+        return "Reparación de piezas";
     }
 }

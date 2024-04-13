@@ -4,7 +4,7 @@ import com.softtek.modelo.ejercicio6.ClienteC;
 
 public class AccesoDesarrollo implements IDAO {
     @Override
-    public String insertar(ClienteC cliente) {
+    public String insertar(ClienteC cliente1) {
         return null;
     }
 }

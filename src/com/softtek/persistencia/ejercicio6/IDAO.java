@@ -5,7 +5,7 @@ import com.softtek.modelo.ejercicio6.ClienteC;
 public interface IDAO {
 
     //Método
-    String insertar (ClienteC cliente);
+    String insertar (ClienteC cliente1);
 
 
 }

@@ -5,5 +5,4 @@ public abstract class ClienteC {
     private String nombre;
     private String NIF;
 
-    //Creo que esta no funciona y tiene que ser interfaz?
 }

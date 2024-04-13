@@ -4,14 +4,16 @@ public class Coche extends Conductor implements IVehiculo {
 
     private int gasolina;
 
+    public Coche(int i) {
+    }
+
     @Override
     public String moverse() {
         if (gasolina != 0){
             gasolina --;
             return "movimiento";
         } else {
-            System.out.println("Vete a la gasolinera a repostar");
-            return null;
+            return "Vete a la gasolinera a repostar";
         }
     }
 
